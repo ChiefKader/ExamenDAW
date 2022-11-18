@@ -9,11 +9,11 @@ A continuación procederemos a escribir esto:
  <VirtualHost *:80>
         ServerAdmin webmaster@localhost
         # Nuestro dominio virtual
-        ServerName daw.ejercicio4.com
+        ServerName ejercicio4.com
         ServerAlias daw.ejercicio4.com
         
         # Indicamos la ruta donde se aloja la web 
-        DocumentRoot /var/www/html/daw.ejercicio4.com
+        DocumentRoot /var/www/html/ejercicio4.com
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
