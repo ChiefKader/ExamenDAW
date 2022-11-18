@@ -38,3 +38,8 @@ Ahora tendremos que recargar apache, lo haremos de la siguiente manera:
 ```
 sudo service apache2 reload
 ```
+Una vez hecho todos los pasos anteriores comprobaremos que este bien, lo primero que haremos sera iniciar Apache con el comando:
+```
+/etc/init.d/apache2 start
+```
+Ahora procederemos a introducir por la url ***daw.ejercicio4.com***
